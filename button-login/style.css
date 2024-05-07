@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    margin: 10px;
+    
+    justify-content: left;
+    align-items: center;
+    background: linear-gradient(to right, #8a89c4, #c24161);
+
+}
+
+#myButton {
+    padding: 15px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px 25px 5px 25px ;
+    color: white;
+    background: rgb(254, 94, 174);
+    transition: 0.9s;
+}
+
+#myButton:hover {
+    background: rgb(255, 38, 142);
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+}
+
+.show {
+    display: block;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+
+}
+
+.login-form {
+    background: rgb(240, 239, 239);
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+
+}
+
+.login-form h2 {
+    text-align: center;
+    
+
+}
+
+.form-group {
+
+    margin-bottom: 5px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login {
+    width: 100%;
+    background: #007bff;
+    justify-content: center;
+    font-size: 17px;
+    align-items: center;
+    display: flex;
+    color: white;
+    padding: 10px;
+    margin: 35px 0px 0px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+
+.login:hover {
+    background: #0056b3;
+}
+
+#closePopup {
+    margin: -30.5vh 0 0 28vh;
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    border: none;
+    background-color: red;
+    padding: 10px 23px;
+    border-radius: 0 10px 0 10px;
+    cursor: pointer;
+    font-size: 15px;
+
+
+
+}
